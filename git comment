@@ -1,0 +1,52 @@
+Rahul Raj@MOBI_REN_LAP012 MINGW64 /e/Testing_Automation/api_testing_rahul
+$ git clone https://github.com/mobians/MobiGuardian.git
+Cloning into 'MobiGuardian'...
+remote: Repository not found.
+fatal: repository 'https://github.com/mobians/MobiGuardian.git/' not found
+
+Rahul Raj@MOBI_REN_LAP012 MINGW64 /e/Testing_Automation/api_testing_rahul
+$ git clone ^[[200~https://github.com/mobians/MobiGuardian.git~
+Cloning into 'MobiGuardian.git~'...
+fatal: protocol '?[200~https' is not supported
+
+Rahul Raj@MOBI_REN_LAP012 MINGW64 /e/Testing_Automation/api_testing_rahul
+$ git clone https://github.com/mobians/MobiGuardian.git
+Cloning into 'MobiGuardian'...
+remote: Repository not found.
+fatal: repository 'https://github.com/mobians/MobiGuardian.git/' not found
+
+Rahul Raj@MOBI_REN_LAP012 MINGW64 /e/Testing_Automation/api_testing_rahul
+$ ^C
+
+Rahul Raj@MOBI_REN_LAP012 MINGW64 /e/Testing_Automation/api_testing_rahul
+$ git clone https://Rahul00110:Luhar@2024@github.com/mobians/MobiGuardian.git
+Cloning into 'MobiGuardian'...
+fatal: unable to access 'https://2024@github.com/mobians/MobiGuardian.git/': URL rejected: Bad hostname
+
+Rahul Raj@MOBI_REN_LAP012 MINGW64 /e/Testing_Automation/api_testing_rahul
+$ git clone https://Rahul00110@github.com/mobians/MobiGuardian.git
+Cloning into 'MobiGuardian'...
+remote: Enumerating objects: 2540, done.
+remote: Counting objects: 100% (1100/1100), done.
+remote: Compressing objects: 100% (590/590), done.
+remote: Total 2540 (delta 536), reused 795 (delta 351), pack-reused 1440 (from 1)
+Receiving objects: 100% (2540/2540), 1.07 MiB | 1.08 MiB/s, done.
+Resolving deltas: 100% (1265/1265), done.
+
+Rahul Raj@MOBI_REN_LAP012 MINGW64 /e/Testing_Automation/api_testing_rahul
+$ cd MobiGuardian/
+
+Rahul Raj@MOBI_REN_LAP012 MINGW64 /e/Testing_Automation/api_testing_rahul/MobiGuardian (main)
+$ git checkout dev
+Switched to a new branch 'dev'
+branch 'dev' set up to track 'origin/dev'.
+
+Rahul Raj@MOBI_REN_LAP012 MINGW64 /e/Testing_Automation/api_testing_rahul/MobiGuardian (dev)
+$ git branch pvt/rahul/api_testing
+
+Rahul Raj@MOBI_REN_LAP012 MINGW64 /e/Testing_Automation/api_testing_rahul/MobiGuardian (dev)
+$ git checkout pvt/rahul/api_testing
+Switched to branch 'pvt/rahul/api_testing'
+
+Rahul Raj@MOBI_REN_LAP012 MINGW64 /e/Testing_Automation/api_testing_rahul/MobiGuardian (pvt/rahul/api_testing)
+$
